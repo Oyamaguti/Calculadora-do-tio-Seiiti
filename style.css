@@ -8,19 +8,24 @@ h1 {
 }
 
 section {
-    height: 600px;
+    height: 640px;
     width: 900px;
-    background-color: white;
+    background-color: lightblue;
     margin: auto;
     text-align: center;
 }
 
-section div {
-    margin-bottom: 140px;
+section .conta {
+    height: 60px;
+    font-size: 16pt;
+    background-color: blueviolet;
 }
 
 section .visor {
     font-size: 24pt;
+    background-color: white;
+    border-radius: 30px;
+    height: 100px;
 }
 
 section button {
