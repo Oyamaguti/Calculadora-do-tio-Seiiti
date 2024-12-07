@@ -16,10 +16,11 @@ section {
 }
 
 section .visor {
-    margin-bottom: 300px;
+    margin-bottom: 225px;
+    font-size: 16pt;
 }
 
 section button {
-    height: 50px;
-    width: 70px;
+    height: 80px;
+    width: 110px;
 }
