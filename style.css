@@ -15,9 +15,8 @@ section {
     text-align: center;
 }
 
-section .visor {
-    margin-bottom: 225px;
-    font-size: 16pt;
+section div {
+    margin-bottom: 100px;
 }
 
 section button {

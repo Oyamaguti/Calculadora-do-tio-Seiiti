@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora tentando ser elegante</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Calculadora elegante</h1>
 
     <section>
 
         <div class="visor">.</div>
-
-        <div>
-            <button type="button" class="zero">0</button>
-            <button type="button" class="um">1</button>
-            <button type="button" class="dois">2</button>
-            <button type="button" class="tres">3</button>
-        </div>
-        <div>
-            <button type="button" class="quatro">4</button>
-            <button type="button" class="cinco">5</button>
-            <button type="button" class="seis">6</button>
-            <button type="button" class="sete">7</button>
-        </div>
-        <div>
-            <button type="button" class="oito">8</button>
-            <button type="button" class="nove">9</button>
-            <button type="button" class="soma">+</button>
-            <button type="button" class="subtração">-</button>
-        </div>
-        <div>
-
-            <button type="button" class="multiplicação">*</button>
-            <button type="button" class="divisão">/</button>
-        </div>
+        <table>
+            <tr>
+                <td><button type="button" class="sete">7</button></td>
+                <td><button type="button" class="oito">8</button></td>
+                <td><button type="button" class="nove">9</button></td>
+                <td><button type="button" class="multiplicação">*</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="quatro">4</button></td>
+                <td><button type="button" class="cinco">5</button></td>
+                <td><button type="button" class="seis">6</button></td>
+                <td><button type="button" class="subtração">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="um">1</button></td>
+                <td><button type="button" class="dois">2</button></td>
+                <td><button type="button" class="tres">3</button></td>
+                <td><button type="button" class="soma">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" class="zero">0</button></td>
+                <td><button type="button" class="divisão">/</button></td>
+                <td><button type="button" class="corrigir"><<</button></td>
+                <td><button type="button" class="igual">=</button></td>
+            </tr>
+        </table>
     </section>
-        
+
     <script src="script.js"></script>
 </body>
+
 </html>
