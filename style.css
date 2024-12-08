@@ -18,7 +18,8 @@ section {
 section .conta {
     height: 60px;
     font-size: 16pt;
-    background-color: blueviolet;
+    background-color: lightblue;
+    text-align: right;
 }
 
 section .visor {

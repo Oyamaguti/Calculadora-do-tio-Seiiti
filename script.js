@@ -10,7 +10,6 @@ function apagar() {
         let resultado = document.querySelector('.visor').innerHTML
         document.querySelector('.visor').innerHTML = ''
     }
-
 }
 
 function calculo() {
