@@ -3,6 +3,19 @@ function inserir (numero) {
     document.querySelector('.conta').innerHTML = num + numero
 }
 
+function verificaop () {
+    let conta = document.querySelector('.conta').innerHTML
+    const operadores = ['+', '-', '*', '/']
+    return operadores.includes(conta.slice(-1))
+}
+
+function inserirop (numero) {
+    if (!verificaop ()) {
+        let op = document.querySelector('.conta').innerHTML
+        document.querySelector('.conta').innerHTML = op + numero
+    }
+}
+
 function apagar() {
     let conta = document.querySelector('.conta').innerHTML
     document.querySelector('.conta').innerHTML = conta.substring(0, conta.length -1)
