@@ -15,6 +15,10 @@ function apagar() {
 function calculo() {
     let resultadocalculadora = document.querySelector('.conta').innerHTML
     if (resultadocalculadora) {
-        document.querySelector('.visor').innerHTML = eval(resultadocalculadora)
+        try {
+            document.querySelector('.visor').innerHTML = eval(resultadocalculadora)
+        } catch (error) {
+            alert('Sua equação está incorreta, refaça!')
+        }
     }
 }
