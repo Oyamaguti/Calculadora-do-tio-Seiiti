@@ -1,6 +1,7 @@
 const somclique = new Audio("audiobotao.mp3")
 
 function tocarClique() {
+    somclique.currentTime = 0
     somclique.play()
 }
 
