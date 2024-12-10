@@ -1,6 +1,13 @@
+const somclique = new Audio("audiobotao.mp3")
+
+function tocarClique() {
+    somclique.play()
+}
+
 function inserir (numero) {
     let num = document.querySelector('.conta').innerHTML
     document.querySelector('.conta').innerHTML = num + numero
+    tocarClique()
 }
 
 function verificaop () {
@@ -14,6 +21,7 @@ function inserirop (numero) {
         let op = document.querySelector('.conta').innerHTML
         document.querySelector('.conta').innerHTML = op + numero
     }
+    tocarClique()
 }
 
 function apagar() {
@@ -23,6 +31,7 @@ function apagar() {
         let resultado = document.querySelector('.visor').innerHTML
         document.querySelector('.visor').innerHTML = ''
     }
+    tocarClique()
 }
 
 function calculo() {
@@ -34,4 +43,5 @@ function calculo() {
             alert('Sua equação está incorreta, refaça!')
         }
     }
+    tocarClique()
 }
